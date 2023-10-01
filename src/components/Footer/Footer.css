@@ -1,0 +1,8 @@
+.footer-container {
+    @apply flex items-center bg-gray-800 p-4 text-white;
+}
+  
+  .footer-container h1 {
+    @apply ml-4 text-2xl font-semibold;
+}
+  
