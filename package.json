@@ -1,9 +1,9 @@
 {
   "name": "react_starter",
   "type": "module",
-  "homepage": "",
+  "homepage": "http://elementalsymmetry.github.io/react_starter",
   "scripts": {
-    "develop": "react-scripts start",
+    "start": "react-scripts start",
     "clean": "rimraf dist",
     "build": "yarn clean && webpack --mode production",
     "preview": "yarn build && serve dist",
