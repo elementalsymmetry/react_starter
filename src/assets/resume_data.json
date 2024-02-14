@@ -1,0 +1,283 @@
+{
+    "profile": {
+        "name": "David M. Walker",
+        "title": "Full Stack Engineer",
+        "email1": "david.walker@elementalsymmetry.com",
+        "email2": "david.matthew.walker@gmail.com",
+        "phone": "(786) 548-2420",
+        "linkedin": "david-walker-48415277",
+        "github": "elementalsymmetry",
+        "resume": "react_resume",
+        "summary": "Experienced Full Stack IT Professional with more than 18 years including full life-cycle software design, development, configuration, administration, continuous integration and delivery. I enjoy front-end, back-end and devOps development. Every problem is an opportunity to learn, a chance to grow, and a solution waiting to be discovered."
+    },
+    "skills": [
+        {
+            "name": "Linux / Windows",
+            "level": 5
+        },
+        {
+            "name": "HTML / JavaScript / CSS",
+            "level": 5
+        },
+        {
+            "name": "Java / J2EE / SpringBoot",
+            "level": 5
+        },
+        {
+            "name": "WCS / HCL Commerce v6 v7 v8",
+            "level": 5
+        },
+        {
+            "name": "NodeJS / React",
+            "level": 5
+        },
+        {
+            "name": "Python / Jython",
+            "level": 3
+        },
+        {
+            "name": "Ruby / Rails",
+            "level": 3
+        },
+        {
+            "name": "Go Lang",
+            "level": 3
+        },
+        {
+            "name": "Expo / React Native",
+            "level": 4
+        },
+        {
+            "name": "Android Play Store / iOS TestFlight",
+            "level": 3
+        },
+        {
+            "name": "Bash",
+            "level": 4
+        },
+        {
+            "name": "Amazon Web Services",
+            "level": 3
+        },
+        {
+            "name": "Google Cloud Platform",
+            "level": 3
+        },
+        {
+            "name": "Kubernetes / Docker / Helm",
+            "level": 3
+        },
+        {
+            "name": "SQL / MySQL / Oracle",
+            "level": 4
+        },
+        {
+            "name": "NoSQL / MongoDB / Firebase",
+            "level": 3
+        },
+        {
+            "name": "Graphql",
+            "level": 3
+        },
+        {
+            "name": "NPM / Yarn",
+            "level": 4
+        },
+        {
+            "name": "REST / Web Services",
+            "level": 5
+        },
+        {
+            "name": "GitHub (Git) / CICD",
+            "level": 5
+        },
+        {
+            "name": "Bootstrap / Tailwind CSS",
+            "level": 3
+        },
+        {
+            "name": "DynaTrace / Splunk / Monitoring",
+            "level": 3
+        },
+        {
+            "name": "Agile / SCRUM",
+            "level": 5
+        },
+        {
+            "name": "Jenkins / Confluence",
+            "level": 4
+        },
+        {
+            "name": "Nuxt / Vue / NextJS",
+            "level": 3
+        },
+        {
+            "name": "CyberArk Password Management",
+            "level": 2
+        }
+
+    ],
+    "jobHistory": [
+        {
+            "position": "Full Stack Engineer",
+            "company": "Tap2Tour",
+            "location": "Remote",
+            "startDate": "July 2022",
+            "endDate": "Present",
+            "responsibilities": [
+                "Google Firebase application datastore development & debugging",
+                "Expo / React Native mobile application management, development & debugging",
+                "Android Play Store application configuration & management",
+                "Git CICD workflow design, development & management"
+            ]
+        },
+        {
+            "position": "Software/DevOps Engineer Retainer",
+            "company": "VivoAquatics",
+            "location": "Remote",
+            "startDate": "September 2022",
+            "endDate": "December 2023",
+            "responsibilities": [
+                "Ruby on Rails Application Debugging & Maintenance",
+                "Expo / React Native application management, development & debugging",
+                "React / Graphql API application debugging & maintenance",
+                "Android Play Store & iOS Test Flight application configuration & management",
+                "AWS Kubernetes infrastructure management & debugging",
+                "MongoDB database configuration, management & debugging",
+                "Git CICD workflow design, development & management for APP & API",
+                "Git repository maintenance & dependency management",
+                "Google Firebase application management",
+                "General research, debug & support"
+            ]
+        },
+        {
+            "position": "Skills Training & Refresher",
+            "company": "Elemental Symmetry, LLC",
+            "location": "Lawndale, NC",
+            "startDate": "February 2022",
+            "endDate": "July 2022",
+            "responsibilities": [
+                "Completed AWS Cloud Practitioner Essentials & Developer Learning Plan",
+                "Google Cloud Firebase & Firestore self-study",
+                "Revisited core Java 8-11 features, completing leetcode.com 2-week courses:",
+                ["Algorithms", "Containers","Dynamic Programming"],
+                "Revisited React development","built custom game as an exercise",
+                ["https://elementalsymmetry.github.io/shufflegame"],
+                "Revisited React Native Expo development",["Reworked shufflegame as React Native"],
+                "Completed Udemy Docker Mastery + Kubernetes + Swarm course"
+            ]
+        },
+        {
+            "position": "Contract DevOps Engineer",
+            "company": "Optomi",
+            "location": "Remote",
+            "startDate": "August 2021",
+            "endDate": "February 2022",
+            "responsibilities": [
+                "Designed & built custom CyberArk password utility script",["Leveraged CyberArk Conjur REST services","Enabled CyberArk password integration across Mulesoft & Commerce"],
+                "Designed & built Jenkins multi-branch pipeline utilities with scripted parallel stages",["Leveraged wsadmin jython and Jenkins agent Docker image", "Enabled self-service Commerce server management","Integrated with Splunk & OpsGenie alerts"],
+                "Designed & built custom Jenkins gcloud vertex utility workflows",
+                [ "Enabled self-service server management with OpsGenie alerts","Leveraged cloud-sdk Docker image"],
+                "Assist with WebSphere Commerce concerns"
+            ]
+        },
+        {
+            "position": "Contract HCL Commerce v9 Performance Engineer",
+            "company": "IDR",
+            "location": "Remote",
+            "startDate": "February 2021",
+            "endDate": "April 2021",
+            "responsibilities": [
+                "Build Dyntrace dashboards & metrics for Commerce detailed monitoring",
+                "Used Dyntrace PurePath to trace problems to their source",
+                "Extract Rigor/Splunk reporting data for weekly business reports",
+                "Discuss ongoing search integration projects"
+            ]
+        },
+        {
+            "position": "Senior Technical Specialist Architect",
+            "company": "Universal Studios",
+            "location": "Orlando, FL",
+            "startDate": "August 2016",
+            "endDate": "December 2020",
+            "responsibilities": [
+                "WCS application logic & integration review & debugging",
+                "Debugged & maintained login, shopping cart, pricing, payments, checkout flow, order transfer",
+                "Utilizing IBM UrbanCode Deploy, Ansible & YMLs:",    
+                ["Developed WCS server installation automation",
+                "Developed catalog data extraction, transfer & load automation utilities",
+                "Developed end-to-end ReadyAPI test suites for QA REST services testing"],
+                "Worked with UI & NodeJS teams to implement REST integration & extensions",
+                "Performed WebSphere Commerce v7.0 to v8.0 code & data migrations",
+                "Responsible for production deployments of Commerce & micro-services"
+            ]
+        },
+        {
+            "position": "Consultant Engineer (WCS v7)",
+            "company": "KForce - Verizon Wireless",
+            "location": "Addison, TX",
+            "startDate": "August 2013",
+            "endDate": "March 2016",
+            "responsibilities": [
+                "WCS to Broadleaf migration proof-of-concept, Aurora-based cloud storefront proof-of-concept",
+                "TVP Colocation Project - B2B Services, Products & Flow E2E Implementation",
+                "Private IP Project - B2B Services, Products & Flow E2E Implementation"
+            ]
+        },
+        {
+            "position": "Technical Manager (WCS v7 v8)",
+            "company": "Rosetta Marketing",
+            "location": "Remote",
+            "startDate": "April 2012",
+            "endDate": "July 2013",
+            "responsibilities": [
+                "Target Optical Pro9ect Front-end page migration, social integration & kCM",
+                "T-Mobile Pro9ect Order Flow modiWcations & Avalara Avatax plugin module"
+            ]
+        },
+        {
+            "position": "Consultant Engineer (WCS v6)",
+            "company": "Alpine Consulting",
+            "location": "Schaumburg, IL",
+            "startDate": "May 2009",
+            "endDate": "February 2011",
+            "responsibilities": [
+                "Developed WebSphere Commerce Commands, Views, Fragments",
+                "Developed migration scripts with IBM BODL Framework utilities",
+                "Developed Omniture SiteCatalyst web analytics",
+                ["Leveraged Apache JFreeChart, JavaScript & Ajax"]
+            ]
+        },
+        {
+            "position": "Senior Software Engineer",
+            "company": "en technologies corporation",
+            "location": "Coral Gables, FL",
+            "startDate": "February 2005",
+            "endDate": "July 2007",
+            "responsibilities": [
+                "WebSphere Portal, WCM & J2EE Development",
+                "ADT - WebSphere Portal to JBoss Portal migration"
+            ]
+        }
+
+    ],
+    "education": [
+        {
+            "degree": "BA Piano Performance",
+            "institution": "Lenoir-Rhyne College",
+            "location": "Hickory, NC",
+            "attended": "1990 - 1994"
+        }
+    ],
+    "training": [
+        "Sun Certified Programmer for the Java 2 Platform 1.4",
+        "IBM Certified Specialist - Rational Unified Process",
+        "IBM Certified Solution Developer - IBM WebSphere Portal V5.0",
+        "IBM Certified Solution Developer - IBM Workplace Web Content Management 2.5",
+        "IBM Certified Application Developer - WebSphere Commerce V6.0",
+        "IBM Certified Application Developer - WebSphere Commerce V7.0",
+        "IBM Certified Solution Designer - WebSphere MQ V6.0",
+        "Omniture Certified Professional – Implementation",
+        "Udemy Docker Mastery with Kubernetes +Swarm"
+    ]
+}

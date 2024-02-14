@@ -11,13 +11,23 @@ export default {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: './',
     library: {
         type: "module",
     },
   },
+  performance: {
+    maxAssetSize: 500000, // Adjust the size limit as needed
+  },
   module: {
     rules: [
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[name][ext]' 
+        }
+      },
       {
         test: /\.js$/,
         loader: 'babel-loader',
@@ -31,20 +41,6 @@ export default {
           'postcss-loader'
         ],
       },
-      // Adding the image handling rule
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[path][name].[ext]',
-              outputPath: 'assets/images/',
-              esModule: false  // Ensure require('./file.png') is a CommonJS style require
-            },
-          },
-        ],
-      }
     ],
   },
   plugins: [

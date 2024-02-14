@@ -1,7 +1,7 @@
 {
-  "name": "react_starter",
+  "name": "resume",
   "type": "module",
-  "homepage": "http://elementalsymmetry.github.io/react_starter",
+  "homepage": "http://elementalsymmetry.github.io/resume/",
   "scripts": {
     "start": "react-scripts start",
     "clean": "rimraf dist",

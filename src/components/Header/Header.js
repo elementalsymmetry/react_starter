@@ -1,13 +1,9 @@
+// Header.js
 import React from 'react';
-import Logo from '../common/Logo.js'
-import './Header.css';
+import './Header.css'; 
 
-const Header = () => {
-  return (
-    <header className="header-container">
-      <Logo width="190px" />
-    </header>
-  );
-}
+const Header = ({ title }) => {
+    return <h2 className="section-header">{title}</h2>;
+};
 
 export default Header;

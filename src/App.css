@@ -1,0 +1,91 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+    --background-color-light: #fff; /* Light theme background for resume-container */
+    --text-color-light: #000; /* Light theme text color */
+    --background-color-dark: #1F2937; /* Dark theme background for resume-container */
+    --text-color-dark: #F9FAFB; /* Dark theme text color */
+    --main-background-color-light: #F0F2F5; /* Light theme background for main-container */
+    --main-background-color-dark: #121212; /* Dark theme background for main-container */
+    --transition-speed: 300ms; /* Transition speed */
+}
+
+@layer components {
+    .flex-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .resume-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 9in;
+        min-height: 11in;
+        background-color: var(--background-color-light);
+        color: var(--text-color-light);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px auto;
+        margin-top: -20px;
+        overflow-y: auto;
+        font-size: 14px;
+        transition: background-color var(--transition-speed) ease-in-out, color var(--transition-speed) ease-in-out;
+    }
+
+    .dark .resume-container {
+        background-color: var(--background-color-dark);
+        color: var(--text-color-dark);
+    }
+
+    /* Revert any unintended layout changes for .main-container */
+    .main-container {
+        /* Original layout properties for main-container */
+        /* Apply only background color change */
+        background-color: var(--main-background-color-light); /* Specific background for main-container in light mode */
+    }
+
+    .dark .main-container {
+        background-color: var(--main-background-color-dark); /* Specific background for main-container in dark mode */
+    }
+
+    .top-section, .bottom-section {
+        display: flex;
+        width: 100%;
+    }
+
+    .left-column-top, .left-column-bottom {
+        flex: 70%;
+    }
+
+    .right-column-top, .right-column-bottom {
+        flex: 30%;
+    }
+
+    .section-separator {
+        border: none;
+        height: 2px;
+        width: 90%;
+        background-color: #ddd;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        margin: 20px 0;
+    }
+
+    input:checked ~ .dot {
+        transform: translateX(6rem);
+    }
+
+    @media (max-width: 768px) {
+        .top-section, .bottom-section {
+            flex-direction: column;
+        }
+
+        .left-column-top, .right-column-top,
+        .left-column-bottom, .right-column-bottom {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}

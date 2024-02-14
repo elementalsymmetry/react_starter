@@ -1,0 +1,33 @@
+/* JobHistory.css */
+.job-history {
+    margin: 0 0;
+}
+
+.job {
+    margin-bottom: 1rem;
+}
+
+.job h3 {
+    margin: 0.5rem 0;
+}
+
+.job p {
+    margin: 0.25rem 0;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* JobHistory.css */
+.list-arrow {
+    list-style-type: none;
+}
+
+.list-arrow::before {
+    content: '→ ';
+    padding-right: 5px;
+}
+
